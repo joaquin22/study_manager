@@ -6,18 +6,11 @@ Aplicación Flutter para organizar tareas universitarias. El proyecto incluye un
 
 La app está organizada por responsabilidad:
 
-- `lib/main.dart`: punto de entrada de la aplicación. Configura `MaterialApp`, aplica el tema y abre la pantalla de login.
+- `lib/main.dart`: punto de entrada de la aplicación. Define el tema y la pantalla de inicio.
+- `lib/theme/app_theme.dart`: define los colores y estilos de la aplicación.
 - `lib/screens/login_screen.dart`: pantalla de inicio de sesión con validación básica de correo y contraseña.
 - `lib/screens/register_screen.dart`: pantalla de registro con validación de campos y confirmación de contraseña.
-- `lib/theme/app_theme.dart`: define los colores, el tema visual y la configuración de componentes como botones, campos de texto y la AppBar.
 
-## Flujo actual
-
-1. La app inicia en `MyApp`.
-2. Se carga el tema definido en `AppTheme.lightTheme`.
-3. La pantalla inicial es `LoginScreen`.
-4. Desde el login se puede navegar a `RegisterScreen`.
-5. Ambas pantallas validan formularios antes de continuar.
 
 ### Pantalla de Login
 
