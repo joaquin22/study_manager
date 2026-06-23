@@ -19,19 +19,16 @@ La app está organizada por responsabilidad:
 4. Desde el login se puede navegar a `RegisterScreen`.
 5. Ambas pantallas validan formularios antes de continuar.
 
-## Capturas de pantalla
+### Pantalla de Login
 
-Aquí puedes agregar imágenes de la interfaz para documentar el estado visual de la app.
+<p align="center">
+	<img width="330" alt="image" src="https://github.com/user-attachments/assets/43bfa30e-9a99-4a0a-9514-5e66e3d0201d" />
+</p>
 
-### Login
-
-![Pantalla de login](<img width="530" height="1032" alt="image" src="https://github.com/user-attachments/assets/43bfa30e-9a99-4a0a-9514-5e66e3d0201d" />
-)
-
-### Registro
-
-![Pantalla de registro](<img width="530" height="1032" alt="image" src="https://github.com/user-attachments/assets/9fa1f067-d933-494a-993c-7ef849ae4958" />
-)
+### Pantalla de Registro
+<p align="center">
+	<img width="330" alt="image" src="https://github.com/user-attachments/assets/9fa1f067-d933-494a-993c-7ef849ae4958" />
+</p>
 
 ## Estructura de carpetas
 
